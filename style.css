@@ -75,6 +75,8 @@ nav a{
 
 
 
+/* HERO */
+
 .hero{
 
     height:100vh;
@@ -146,6 +148,9 @@ nav a{
 
 
 
+/* GENERAL SECTIONS */
+
+
 section{
 
     padding:100px 8%;
@@ -166,6 +171,10 @@ section{
 
 
 
+
+/* PROJECTS */
+
+
 .project{
 
     margin-bottom:120px;
@@ -174,6 +183,8 @@ section{
 
 
 
+/* IMAGE PROJECTS */
+
 .project img{
 
     width:100%;
@@ -181,7 +192,29 @@ section{
 
     object-fit:cover;
 
+    display:block;
+
 }
+
+
+
+/* VIDEO PROJECTS */
+
+.project-video{
+
+    width:100%;
+
+    height:700px;
+
+    object-fit:cover;
+
+    display:block;
+
+    background:#000;
+
+}
+
+
 
 
 
@@ -203,11 +236,25 @@ section{
 
 
 
+.content p{
+
+    max-width:700px;
+
+    line-height:1.8;
+
+}
+
+
+
+
+
+/* DESIGN PROCESS */
 
 
 .process{
 
     display:flex;
+
     justify-content:space-between;
 
 }
@@ -217,6 +264,7 @@ section{
 .process div{
 
     border-bottom:1px solid black;
+
     padding:20px;
 
 }
@@ -225,10 +273,15 @@ section{
 
 
 
+/* ABOUT */
+
+
 .about-text{
 
     max-width:700px;
+
     font-size:22px;
+
     line-height:1.8;
 
 }
@@ -236,10 +289,16 @@ section{
 
 
 
+
+/* FOOTER */
+
+
 footer{
 
     padding:40px;
+
     text-align:center;
+
     border-top:1px solid #ddd;
 
 }
@@ -249,6 +308,8 @@ footer{
 
 
 
+/* MOBILE */
+
 @media(max-width:768px){
 
 
@@ -257,6 +318,7 @@ nav{
     padding:20px;
 
 }
+
 
 
 nav ul{
@@ -282,11 +344,14 @@ nav ul{
 }
 
 
-.project img{
+
+.project img,
+.project-video{
 
     height:400px;
 
 }
+
 
 
 .process{
@@ -295,15 +360,5 @@ nav ul{
 
 }
 
-.project-video {
 
-    width:100%;
-    height:700px;
-
-    object-fit:cover;
-
-    display:block;
-
-}
-    
 }
